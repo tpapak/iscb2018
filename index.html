@@ -4,10 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>ISCB 2018 - Thodoris Papakonstantinou</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/white.css">
+		<!-- personal customizations -->
+		<link rel="stylesheet" href="css/presentation.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,8 +26,9 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+                          <section data-markdown="cover.md"></section>
+                          <section data-markdown="slide1.md"></section>
+                          <section data-markdown="slide2.md"></section>
 			</div>
 		</div>
 
@@ -41,8 +44,16 @@
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
 					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
+					{ src: 'plugin/highlight/highlight.js',
+                                          async: true, callback: function() {
+                                            hljs.initHighlightingOnLoad(); } },
+                                        { src: 'plugin/math/math.js', async: true }
+				],
+                                width: 1080,
+                                height: 720,
+                                transition: "slide",
+                                backgroundTransition: "slide",
+                                center: true
 			});
 		</script>
 	</body>

@@ -1,9 +1,7 @@
 {
-  "name": "reveal.js",
-  "version": "3.7.0",
-  "description": "The HTML Presentation Framework",
-  "homepage": "http://revealjs.com",
-  "subdomain": "revealjs",
+  "name": "iscb",
+  "version": "1.0.0",
+  "description": "slides for ISCB 2018",
   "main": "js/reveal.js",
   "scripts": {
     "test": "grunt test",
@@ -11,9 +9,9 @@
     "build": "grunt"
   },
   "author": {
-    "name": "Hakim El Hattab",
-    "email": "hakim.elhattab@gmail.com",
-    "web": "http://hakim.se"
+    "name": "Thodoris Papakonstantinou",
+    "email": "tpapak@gmail.com",
+    "web": "https://tpapak.com"
   },
   "repository": {
     "type": "git",
@@ -39,5 +37,5 @@
     "mustache": "^2.3.0",
     "socket.io": "^1.7.3"
   },
-  "license": "MIT"
+  "license": "CC-BY-NC-4.0"
 }
