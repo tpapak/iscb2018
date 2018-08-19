@@ -1,5 +1,45 @@
+.heading {
+  font-family: "Proxima Nova","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif!important;
+font-style: normal;
+/*color: #E9EEE8;*/
+text-shadow: 1px black;
+font-weight: 200!important;
+line-height: 1.1!important;
+text-rendering: optimizeLegibility;
+text-transform: uppercase!important;
+
+}
+
+.content {
+  top: 30px;
+}
+
 footer {
-  font-size:0.3em!important;
-  text-align: right;
-  position: bottom;
+  display: none!important;
+}
+
+.footering {
+  position:absolute;
+  bottom:10px;
+  font-size: 0.4em!important;
+}
+
+img {
+  background:none!important;
+  border:none!important;
+  box-shadow:none!important;
+  /*max-height: 300px;*/
+}
+
+.reveal {
+  font-size: 1.2em;
+}
+
+.vm {
+  vertical-align: middle!important;
+}
+
+table td {
+  border:none!important;
+  vertical-align:middle!important;
 }

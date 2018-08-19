@@ -11,6 +11,7 @@ var RevealMath = window.RevealMath || (function(){
 	options.config = options.config || 'TeX-AMS_HTML-full';
 	options.tex2jax = options.tex2jax || {
 				inlineMath: [['$','$'],['\\(','\\)']] ,
+                                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
 				skipTags: ['script','noscript','style','textarea','pre'] };
 
 	loadScript( options.mathjax + '?config=' + options.config, function() {

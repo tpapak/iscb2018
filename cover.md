@@ -9,3 +9,5 @@ Institute of Social and Preventive Medicine, University of Bern Switzerland
 </small>
 
 <small>ISCB Melbourne 2018</small>
+
+<img src="images/cover.png" height="" /> 
