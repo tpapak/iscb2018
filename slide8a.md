@@ -5,9 +5,9 @@ chronically discharging ears with underlying eardrum perforations.
 
 Macfadyen CA, Acuin JM, Gamble C: Cochrane Database Syst Rev. 2005; (4): CD004618.  
 
-**x**: no treatment, **y**: quinolone antibiotic, **u**: non-quinolone
+**x**: no treatment, **y**: quinolone antibiotic, **u**: non-quinolone antibiotic, **v**: antiseptic
 
-comparison $x:y$
+$h$ matrix
 
 <img src="images/table.png" height="240px"/>
 

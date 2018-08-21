@@ -12,8 +12,8 @@ Repeat until all flow is depleted and all streams are found: $S = \\{s\_1, s\_2,
 
 <span><!-- .element: class="fragment" data-fragment-index="5" -->
 Calculate contribution of comparison $XY$ to comparison $AB$: 
-$c_{XY} = \sum\_i \frac{f_i}{|\pi_i|}$ 
-where $|\pi_i|$ is the lenght of path $i$ of stream $s\_i$
+$c_{XY} = \sum\_i \frac{\phi\_i}{|\pi\_i|}$ 
+where $|\pi\_i|$ is the lenght of path $i$ of stream $s\_i$
 </span>
 
 Number of streams is equal to the degrees of freedom plus one $k = dof +1$<!-- .element: class="fragment" data-fragment-index="6" -->
