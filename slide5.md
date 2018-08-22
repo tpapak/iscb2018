@@ -1,31 +1,30 @@
 <span class="heading">
-Basic Assumptions
+$h^{AB}$ row as a **comparison graph** $G\_{AB}$
 </span>
 <span class="content">
 
-### From $h$ matrix to graph $G$
-- Each comparison ($h$ matrix row, $h\_{AB}$) can be transformed into a directed graph
-$G_{AB}= (V,E, F)$ where the **flow** ($f$) of the edge is the value of the corresponding element in $h$ matrix.
-- From the properties of $h$ follows that $f$ is a valid flow since flow is preserved in internal nodes $\sum\_{XZ \in E} f\_{XZ} = \sum\_{ZX \in E} f\_{ZX}, Z \notin \\{A,B\\}$
+- Each $h$ matrix row can be transformed into a directed graph $G_{AB}= (V,E, F)$ 
+ - $V$: Set of interventions
+ - $E$: Comparisons with direct evidence (studies)
+ - $F$: Flow, property of edges, equals the elements of $h$ row.
 
+*Köning J. Krahn U. Binder H. Statistics in Medicine 2013*
+
+Assumptions for contribution in a contribution graph <!-- .element: class="fragment" data-fragment-index="1" -->
 <div> 
 <table>
 <tr><!-- .element: class="fragment" data-fragment-index="1" -->
 <td>
-Contribution of <em>parallel</em> paths (sequence of edges-comparisons)
-<br>
- The contribution of a parallel-indipendent paths is **equal to the their flow**.
+Contribution of <em>parallel</em> paths (sequence of edges-comparisons) is **equal to the their flow**.
 <br>
   $c\_{ACB}=c\_{AC}+c\_{CB} =f\_1$
 <br>
-  $c\_{ADB}=c\_{AD}+c\_{DB} =f\_2$
-<br>
-  $c\_{AEFB}=c\_{AE}+c\_{EF}+c\_{FB} =f\_3$
+  $c\_{ADEB}=c\_{AD}+c\_{DE}+c\_{EB} =f\_2$
 <br>
   $c\_{AB}=f\_{direct}$
 </td>
 <td>
-<img src="images/parallel.png" />
+<img src="images/parallel.png" height="170px"/>
 </td>
 </tr>
 <tr><!-- .element: class="fragment" data-fragment-index="2" -->
@@ -40,7 +39,7 @@ Each comparison **contributes equally** in a path so the contribution
   $\mathbf{c\_{comparison}=\frac{f\_{path}}{length \~ of \~ path}}$
 </td>
 <td>
-<img src="images/serial.png" />
+<img src="images/serial.png" size="85%" />
 </td>
 </tr>
 </table>

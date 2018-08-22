@@ -16,8 +16,6 @@ $c_{XY} = \sum\_i \frac{\phi\_i}{|\pi\_i|}$
 where $|\pi\_i|$ is the lenght of path $i$ of stream $s\_i$
 </span>
 
-Number of streams is equal to the degrees of freedom plus one $k = dof +1$<!-- .element: class="fragment" data-fragment-index="6" -->
-
 
 <footer>
 Theodore Papakonstantinou - ISCB 2018 - 7

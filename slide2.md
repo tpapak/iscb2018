@@ -11,8 +11,8 @@ From pairwise to network meta-analysis
 <img src="images/netmeta.png" height="200px"/>
 
 Two-Stage network meta-analysis
-- Estimate pairwise summary effects: $\mathbf{\hat{\theta}}=\\{\hat{\theta}\_{AB}, \hat{\theta}\_{AC}, \hat{\theta}\_{AD}, \hat{\theta}\_{BD}, \hat{\theta}\_{CD} \\}$ <!-- .element: class="fragment" data-fragment-index="1" -->
-- Calculate relative network effect sizes: $\hat{\theta}^N = \mathbf{H} \hat{\theta} = \\{\hat{\theta}\_{AB}, \hat{\theta}\_{AC}, \hat{\theta}\_{AD}, \mathbf{\hat{\theta}\_{BC}}, \hat{\theta}\_{BD}, \hat{\theta}\_{CD}\\}$ <!-- .element: class="fragment" data-fragment-index="2" -->
+- Estimate pairwise summary effects: $\mathbf{\hat{\theta}^D}=\\{\hat{\theta}\_{AB}, \hat{\theta}\_{AC}, \hat{\theta}\_{AD}, \hat{\theta}\_{BD}, \hat{\theta}\_{CD} \\}$ <!-- .element: class="fragment" data-fragment-index="1" -->
+- Calculate relative network effect sizes: $\hat{\theta}^N = \mathbf{H} \hat{\theta}^D = \\{\hat{\theta}\_{AB}^N, \hat{\theta}\_{AC}^N, \hat{\theta}\_{AD}^N, \mathbf{\hat{\theta}\_{BC}^N}, \hat{\theta}\_{BD}^N, \hat{\theta}\_{CD}^N\\}$ <!-- .element: class="fragment" data-fragment-index="2" -->
 
 
 </span>

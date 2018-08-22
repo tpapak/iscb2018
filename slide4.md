@@ -5,16 +5,17 @@ No easy fix
 
 Naive normalization: $c\_{XY} = \frac{|h\_{XY}|}{\sum_i |h\_i|}$
 
-- Direct contribution should equal: $c\_{direct} = |h\_{direct}|$ 
-- More generally contribution of parallel paths should be indipendent.
+Contribution should be **independent** for parallel comparisons.
 
-> In both networks I and II contribution should be $c\_{AD} = \frac{1}{2}$ 
-> but the normalisation in network I gives:
->  $c\_{AD}= \frac{1}{3}$
+> In both networks I and II contribution should be equal 
+> but normalisation in network I gives:
+> $c\_{AD}= \frac{1}{3}$
 > and in network II gives:
->  $c\_{AD}= \frac{1}{4}$
+> $c\_{AD}= \frac{1}{4}$
 
 <img src="images/normal.png" height="280px"/>
+
+contribution of direct should be: $c\_{direct}=h\_{direct}=1-h\_{indirect}$
 
 </span>
 
