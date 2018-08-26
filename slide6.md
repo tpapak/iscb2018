@@ -19,7 +19,7 @@ Decompose flow into **streams**
 <br>
 A stream is defined by its flow $\phi$ and the path $\pi$
 <br>
-$s\_i = \\{ \phi\_i, \pi\_i \\}$
+$\mathbf{s\_i = \\{ \phi\_i, \pi\_i \\}}$
 <br>
 Total contribution of a comparison is the sum over the streams that contain 
 <br>

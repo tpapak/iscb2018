@@ -11,9 +11,10 @@ The first step is to locate all streams by decomposing flow
 Repeat until all flow is depleted and all streams are found: $S = \\{s\_1, s\_2, ...s\_k\\}$ <!-- .element: class="fragment" data-fragment-index="4" -->
 
 <span><!-- .element: class="fragment" data-fragment-index="5" -->
-Calculate contribution of comparison $XY$ to comparison $AB$: 
-$c_{XY} = \sum\_i \frac{\phi\_i}{|\pi\_i|}$ 
-where $|\pi\_i|$ is the lenght of path $i$ of stream $s\_i$
+Calculate contribution of comparison $X$ vs $Y$ to the network estimate of $A$ vs $B$: 
+$c\_{XY}^{AB} = \sum\_i^k \frac{\phi\_i}{|\pi\_i|}, (XY) \in \pi\_i$ 
+<br>
+where $|\pi\_i|$ is the lenght of path $i$ of stream $s\_i$ and $k$ the number of streams.
 </span>
 
 
