@@ -25,6 +25,10 @@ Estimating the contribution of studies in network meta-analysis: paths, flows an
   Georgia Salanti 
 </td>
 </tr>
+<tr>
+R package:
+[https://github.com/esm-ispm-unibe-ch/flow_contribution](https://github.com/esm-ispm-unibe-ch/flow_contribution)
+</tr>
 </table>
 
 <footer>
